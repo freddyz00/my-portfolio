@@ -12,8 +12,8 @@ function Skills() {
           <ul className="text-xl font-light leading-8 bg-white mx-5 w-80 rounded-md p-10 text-center">
             <BsCodeSlash className="w-full text-2xl" />
             <h3 className="text-[#4ADE72] font-bold my-3">Languages</h3>
-            <li>Html</li>
-            <li>Css</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>JavaScript</li>
             <li>Python</li>
           </ul>
@@ -22,7 +22,7 @@ function Skills() {
             <h3 className="text-[#4ADE72] font-bold my-3">
               Tools & Technologies
             </h3>
-            <li>ReactJs</li>
+            <li>React</li>
             <li>Redux</li>
             <li>Next.js</li>
             <li>Firebase</li>
@@ -34,7 +34,7 @@ function Skills() {
             <h3 className="text-[#4ADE72] font-bold my-3">Others</h3>
             <li>Machine Learning</li>
             <li>Neural Networks</li>
-            <li>Tensorflow</li>
+            <li>TensorFlow</li>
             <li>Git</li>
           </ul>
         </div>
