@@ -10,7 +10,7 @@ function HungryNow() {
   return (
     <ScrollToTop>
       <div className="container mx-auto">
-        <header className="mx-56 mt-5">
+        <header className="mx-3 md:mx-10 lg:mx-36 xl:mx-56 mt-5">
           <div
             className="group flex items-center mb-3 w-fit cursor-pointer"
             onClick={() => {
@@ -29,18 +29,18 @@ function HungryNow() {
               <a
                 href="https://github.com/freddyz00/WorkNow"
                 target="_blank"
-                className="flex items-center text-xl px-5 py-3 bg-white hover:bg-[#4ADE72] text-[#4ADE72] hover:text-white rounded-full border-2 border-solid border-[#4ADE72] transition"
+                className="flex items-center text-xl px-3 md:px-5 py-3 bg-white hover:bg-[#4ADE72] text-[#4ADE72] hover:text-white rounded-full border-2 border-solid border-[#4ADE72] transition"
               >
                 <span>
-                  <FaGithub className="text-2xl mr-3" />
+                  <FaGithub className="text-2xl md:mr-3" />
                 </span>
-                <span>View on GitHub</span>
+                <span className="hidden md:block">View on GitHub</span>
               </a>
             </div>
           </div>
           <ImageGallery data={data.hungryNow} />
         </header>
-        <main className="mx-56">
+        <main className="mx-5 md:mx-10 lg:mx-36 xl:mx-56">
           <section className="mb-10">
             <h2 className="text-[#4ADE72] text-3xl font-semibold mb-3">
               Project Description

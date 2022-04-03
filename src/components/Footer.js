@@ -8,8 +8,8 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-[#4ADE72] py-8">
-      <div className="container mx-auto flex items-center justify-center">
+    <footer className="bg-[#4ADE72] py-8 relative">
+      <div className="container mx-auto flex items-center justify-center ">
         <a
           href="https://discordapp.com/users/407199787004330004/"
           target="_blank"
@@ -38,7 +38,7 @@ function Footer() {
           <FaRegEnvelope className="text-2xl text-white group-hover:text-[#4ADE72]" />
         </a>
       </div>
-      <p className="text-white text-right absolute right-3">
+      <p className="text-white text-right absolute bottom-1.5 right-3">
         © FreddyZhao 2022
       </p>
     </footer>

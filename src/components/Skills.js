@@ -8,8 +8,8 @@ function Skills() {
     <section id="skills" className="mb-40 bg-[#4ADE72] -skew-y-6">
       <div className="container mx-auto py-28 flex flex-col items-center justify-center skew-y-6">
         <h2 className="text-4xl text-white font-semibold ">Skills</h2>
-        <div className="flex my-10">
-          <ul className="text-xl font-light leading-8 bg-white mx-5 w-80 rounded-md p-10 text-center">
+        <div className="flex flex-wrap md:flex-nowrap my-10 container justify-center">
+          <ul className="text-xl font-light leading-8 bg-white mx-5 mb-5 md:mb-0 w-80 rounded-md p-10 text-center">
             <BsCodeSlash className="w-full text-2xl" />
             <h3 className="text-[#4ADE72] font-bold my-3">Languages</h3>
             <li>HTML</li>
@@ -17,7 +17,7 @@ function Skills() {
             <li>JavaScript</li>
             <li>Python</li>
           </ul>
-          <ul className="text-lg font-light leading-8 bg-white mx-5 w-80 rounded-md p-10 text-center">
+          <ul className="text-lg font-light leading-8 bg-white mx-5 mb-5 md:mb-0 w-80 rounded-md p-10 text-center">
             <BsTools className="w-full text-2xl" />
             <h3 className="text-[#4ADE72] font-bold my-3">
               Tools & Technologies
