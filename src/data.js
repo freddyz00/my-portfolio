@@ -56,4 +56,26 @@ export const data = {
       src: "work-now/work-now-home.png",
     },
   ],
+  weBuild: [
+    {
+      type: "image",
+      src: "we-build/editor.png",
+    },
+    {
+      type: "image",
+      src: "we-build/admin.png",
+    },
+    {
+      type: "image",
+      src: "we-build/home.png",
+    },
+    {
+      type: "image",
+      src: "we-build/products.png",
+    },
+    {
+      type: "image",
+      src: "we-build/product.png",
+    },
+  ],
 };

@@ -10,6 +10,51 @@ function MyWork() {
           Here are some of the personal projects that I have worked on
         </p>
         <Link
+          to="/webuild"
+          className="flex flex-col w-11/12 lg:w-5/6 xl:w-2/3 items-center justify-center"
+        >
+          <article className="group flex flex-col md:flex-row mb-16 rounded-md border border-solid border-slate-200 shadow">
+            <div className="md:w-1/2 rounded-l-md border-r border-slate-200 border-solid overflow-hidden">
+              {/* image */}
+              <img
+                src="we-build/we-build.png"
+                alt="we-build"
+                className="group-hover:scale-105 transition"
+              />
+            </div>
+            <div className="md:w-1/2 px-5 py-3 flex flex-col justify-between">
+              {/* project description */}
+              <div>
+                <h3 className="font-bold text-2xl text-[#4ADE72] mb-3">
+                  WeBuild
+                </h3>
+                <p className="font-light text-lg mb-3">
+                  WeBuild allows anyone to create and set up an online
+                  e-commerce store in minutes. Customize your store to your
+                  preferences and add products in just a few clicks.
+                </p>
+              </div>
+              <div className="flex flex-wrap">
+                <span className="mx-1 mb-2 px-3 py-0.5 text-sm text-white bg-[#4ADE72] rounded-full">
+                  Next.js
+                </span>
+                <span className="mx-1 mb-2 px-3 py-0.5 text-sm text-white bg-[#4ADE72] rounded-full">
+                  React
+                </span>
+                <span className="mx-1 mb-2 px-3 py-0.5 text-sm text-white bg-[#4ADE72] rounded-full">
+                  TailwindCSS
+                </span>
+                <span className="mx-1 mb-2 px-3 py-0.5 text-sm text-white bg-[#4ADE72] rounded-full">
+                  Sanity CMS
+                </span>
+                <span className="mx-1 mb-2 px-3 py-0.5 text-sm text-white bg-[#4ADE72] rounded-full">
+                  Recoil
+                </span>
+              </div>
+            </div>
+          </article>
+        </Link>
+        <Link
           to="/worknow"
           className="flex flex-col w-11/12 lg:w-5/6 xl:w-2/3 items-center justify-center"
         >

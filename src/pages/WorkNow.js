@@ -75,7 +75,7 @@ function WorkNow() {
             <ul className="font-light text-xl leading-8 list-disc list-inside ">
               <li>Create and manage lists of to-do tasks</li>
               <li>Move and reorder tasks and lists by dragging and dropping</li>
-              <li>Receive real-time updates of what your team is working</li>
+              <li>Receive real-time updates of what your team is working on</li>
               <li>
                 Organize your projects by maintaining a separate workspace for
                 each project
